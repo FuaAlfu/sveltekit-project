@@ -1,10 +1,15 @@
 <script>
+    import Title from '$lib/title.svelte';
+
+    //----------------------
     let title = 'my homepage';
     const updateTitle = () => {
         title  = "welcom"
     }
 </script>
 
+<Title />
+<!-- end of title -->
 <div class="index">
     <h2>{title}</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit nam, minus tenetur ab explicabo voluptate quis at tempore cupiditate ex sint quae nihil consectetur. Esse culpa nesciunt accusamus aliquam. Doloremque?</p>

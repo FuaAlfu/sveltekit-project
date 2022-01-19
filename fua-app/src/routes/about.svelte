@@ -1,3 +1,8 @@
+<script>
+    import Title from '$lib/title.svelte';
+</script>
+
+<Title title="title da"/>
 <div class="about">
     <h2>about us</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit distinctio eos sequi maxime repellendus quam maiores sapiente, aut impedit eius nesciunt. Dignissimos a corrupti necessitatibus! Atque quidem provident quaerat dolor!</p><br>
