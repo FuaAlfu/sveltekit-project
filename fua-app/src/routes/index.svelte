@@ -1,5 +1,5 @@
 <script>
-    import Title from '$lib/title.svelte';
+    // import Title from '$lib/title.svelte';
 
     //----------------------
     let title = 'my homepage';
@@ -8,7 +8,7 @@
     }
 </script>
 
-<Title />
+<!-- <Title /> -->
 <!-- end of title -->
 <div class="index">
     <h2>{title}</h2>
